@@ -19,9 +19,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
 
   void onQuestionAnswered() {
     setState(() {
-      currentQuestionIndex < 5
-          ? currentQuestionIndex++
-          : currentQuestionIndex = 0; // Incrementing the index
+      currentQuestionIndex++;
     });
   }
 
